@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.barra-menu{
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    width: 100%;
+    height: 10vh;
+}
+
+.logo{
+    color: rgb(168, 166, 166);/*cor da fonte*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+}
+
+.logo h1{
+    font-size: 28px;
+    width: 100%;
+}
+.img-logo{
+    margin: 0px 20px 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5%;
+}
+
+.img-logo img{
+    width: 50px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+
+.menu li{
+    display: inline;
+    padding: 20px;
+}
+.menu li:hover{
+    border-bottom: 4px solid rgb(238, 147, 11);
+}
+
+.menu a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(168, 166, 166);/*cor da fonte*/
+}
+
+.menu a:hover{
+    color: white;
+}
+
+.botao-login{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao-login a{
+    font-size: 17px;
+    color: black;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: rgb(238, 147, 11);
+    padding: 10px;
+}
+
+.botao-login a:hover{
+    background-color: white;
+    color: rgb(238, 147, 11);
+}
+
+.submenu{
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 7vh;
+}
+
+.submenu-lista{
+    border-radius: 20px;
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+.submenu-lista ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.submenu-lista li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 20px;
+}
+
+.submenu a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(168, 166, 166);
+}
+
+.submenu a:hover{
+    color: white
+}
+
+.conteudo-carrossel{
+    border: 1px solid red;
+    width: 95%;
+    height: 80%;
+    background-color: rgb(32, 32, 32);
+}
