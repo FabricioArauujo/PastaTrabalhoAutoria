@@ -3,11 +3,22 @@
     margin: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: 'jogos';
+    src: url(fontes/HeadlinerNo.45\ DEMO.ttf);
+    font-weight: normal;
+  }
+  
+  :root{
+    --fonte-padrao: 'jogos', cursive;
+  }
+  
 
 body{
     width: 100%;
     height: 100vh;
     background-color: black;
+    font-family: var( --fonte-padrao);
 }
 
 .barra-menu{
@@ -26,7 +37,7 @@ body{
 }
 
 .logo h1{
-    font-size: 28px;
+    font-size: 35px;
     width: 100%;
 }
 .img-logo{
